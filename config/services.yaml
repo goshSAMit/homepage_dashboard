@@ -1,0 +1,32 @@
+- Networking:
+    - PFSense:
+        icon: pfsense.svg
+        href: "{{HOMEPAGE_VAR_PFSENSE_URL}}"
+        description: Gateway and Firewall
+    - Pi-Hole:
+        icon: pi-hole.svg
+        href: "{{HOMEPAGE_VAR_PIHOLE_URL_ADMIN}}"
+        description: Pi-Hole
+        widget:
+            type: pihole
+            url: "{{HOMEPAGE_VAR_PIHOLE_IP}}"
+            version: 6
+            key: "{{HOMEPAGE_VAR_PIHOLE_API_KEY}}"
+    - Traefik:
+        icon: traefik-proxy.svg
+        url: "{{HOMEPAGE_VAR_TRAEFIK_URL}}"
+        description: Traefik Proxy for Production Cert Management
+        # widget:
+        #   - type: traefik
+        #     url: "{{HOMEPAGE_VAR_TRAEFIK_URL}}"
+
+- Virtualization:
+    - Proxmox:
+        icon: proxmox.svg
+        href: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
+        description: Homelab Proxmox Server
+        widget:
+            type: proxmox
+            url: "{{HOMEPAGE_VAR_PROXMOX_IP}}"
+            username: "{{HOMEPAGE_VAR_PROXMOX_USERNAME}}"
+            password: "{{HOMEPAGE_VAR_PROXMOX_PASSWORD}}"

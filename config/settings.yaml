@@ -1,0 +1,10 @@
+title: My Homepage Dashboard
+theme: dark # sets theme to dark by default
+color: slate # sets color to slate by default
+background:
+#  image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+  image: https://plus.unsplash.com/premium_vector-1683133526448-1dbcef85edba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D
+  blur: sm # sm, "", md, xl
+  saturate: 50 # 0, 50, 100
+  brightness: 50 # 0, 50, 75
+  opacity: 50 # 0-100
