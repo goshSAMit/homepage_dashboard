@@ -8,3 +8,17 @@ background:
   saturate: 50 # 0, 50, 100
   brightness: 50 # 0, 50, 75
   opacity: 50 # 0-100
+
+layout:
+  Virtualization:
+    style: row
+    columns: 1
+
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false
+  showSearchSuggestions: true
+  hideVisitURL: false
+  provider: duckduckgo
+
+target: _blank
