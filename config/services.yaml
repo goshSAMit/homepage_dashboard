@@ -22,10 +22,16 @@
         href: "{{HOMEPAGE_VAR_SWITCH_URL}}"
         description: Main 24-port PoE switch
 
-- Group A:
-    - Service A:
-        href: http://localhost/
+- Storage:
+    - TrueNAS:
+        icon: truenas.svg
+        href: https://192.168.0.101
+        # href: "{{HOMEPAGE_VAR_TRUENAS_URL}}"
+        description: Network Attached Storage for the family
 
-- Group B:
-    - Service B:
+- Media:
+    - Plex:
+        icon: plex.svg
         href: http://localhost/
+        # href: "{{HOMEPAGE_VAR_PLEX_URL}}"
+        description: Media Server for Movies and TV Shows
