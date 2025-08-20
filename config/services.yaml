@@ -21,6 +21,14 @@
         icon: tp-link.svg
         href: "{{HOMEPAGE_VAR_SWITCH_URL}}"
         description: Main 24-port PoE switch
+    - First Floor Access Point:
+        icon: tp-link.svg
+        href: "{{HOMEPAGE_VAR_FIRSTFLOORAP_URL}}"
+        description: TP-Link EAP650 Access Point on the First Floor
+    - Second Floor Access Point:
+        icon: tp-link.svg
+        href: "{{HOMEPAGE_VAR_SECONDFLOORAP_URL}}"
+        description: TP-Link EAP650 Access Point on the Second Floor
 
 - Storage:
     - TrueNAS:
